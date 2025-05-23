@@ -605,21 +605,21 @@ def test(weights, loader, batch_size):
     print("Translation error:", f"{100*np.asarray(et_epoch).mean():.4f}", "cm")
     print("Translation median:", f"{np.median(100*np.asarray(et_epoch)):.4f}", "cm")
     print("Translation std:", f"{np.std(100*np.asarray(et_epoch)):.4f}", "cm")
-
-    print("== YAW ==")
-    print("yaw error mean:", f"{np.asarray(eyaw_epoch).mean():.4f}", f"\N{DEGREE SIGN}")
-    print("yaw error median:", f"{np.median(np.asarray(eyaw_epoch)):.4f}", f"\N{DEGREE SIGN}")
-    print("yaw error std:", f"{np.std(np.asarray(eyaw_epoch)):.4f}", f"\N{DEGREE SIGN}")
-
-    print("== PITCH ==")
-    print("pitch error mean:", f"{np.asarray(epitch_epoch).mean():.4f}", f"\N{DEGREE SIGN}")
-    print("pitch error median:", f"{np.median(np.asarray(epitch_epoch)):.4f}", f"\N{DEGREE SIGN}")
-    print("pitch error std:", f"{np.std(np.asarray(epitch_epoch)):.4f}", f"\N{DEGREE SIGN}")
     
     print("== ROLL ==")
     print("roll error mean:", f"{np.asarray(eroll_epoch).mean():.4f}", f"\N{DEGREE SIGN}")
     print("roll error median:", f"{np.median(np.asarray(eroll_epoch)):.4f}", f"\N{DEGREE SIGN}")
     print("roll error std:", f"{np.std(np.asarray(eroll_epoch)):.4f}", f"\N{DEGREE SIGN}")
+
+    print("== PITCH ==")
+    print("pitch error mean:", f"{np.asarray(epitch_epoch).mean():.4f}", f"\N{DEGREE SIGN}")
+    print("pitch error median:", f"{np.median(np.asarray(epitch_epoch)):.4f}", f"\N{DEGREE SIGN}")
+    print("pitch error std:", f"{np.std(np.asarray(epitch_epoch)):.4f}", f"\N{DEGREE SIGN}")
+
+    print("== YAW ==")
+    print("yaw error mean:", f"{np.asarray(eyaw_epoch).mean():.4f}", f"\N{DEGREE SIGN}")
+    print("yaw error median:", f"{np.median(np.asarray(eyaw_epoch)):.4f}", f"\N{DEGREE SIGN}")
+    print("yaw error std:", f"{np.std(np.asarray(eyaw_epoch)):.4f}", f"\N{DEGREE SIGN}")
     
     print("== ER ==")
     print("Rotation error mean:", f"{np.asarray(er_epoch).mean():.4f}", f"\N{DEGREE SIGN}")

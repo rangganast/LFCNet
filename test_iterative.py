@@ -556,20 +556,20 @@ def test(weights, loader, batch_size):
         print("Translation median:", f"{np.median(100*np.asarray(et_epoch[stage])):.4f}", "cm")
         print("Translation std:", f"{np.std(100*np.asarray(et_epoch[stage])):.4f}", "cm")
 
-        print("== YAW ==")
-        print("yaw error mean:", f"{np.asarray(eyaw_epoch[stage]).mean():.4f}", f"\N{DEGREE SIGN}")
-        print("yaw error median:", f"{np.median(np.asarray(eyaw_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
-        print("yaw error std:", f"{np.std(np.asarray(eyaw_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
+        print("== ROLL ==")
+        print("roll error mean:", f"{np.asarray(eroll_epoch[stage]).mean():.4f}", f"\N{DEGREE SIGN}")
+        print("roll error median:", f"{np.median(np.asarray(eroll_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
+        print("roll error std:", f"{np.std(np.asarray(eroll_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
 
         print("== PITCH ==")
         print("pitch error mean:", f"{np.asarray(epitch_epoch[stage]).mean():.4f}", f"\N{DEGREE SIGN}")
         print("pitch error median:", f"{np.median(np.asarray(epitch_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
         print("pitch error std:", f"{np.std(np.asarray(epitch_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
-        
-        print("== ROLL ==")
-        print("roll error mean:", f"{np.asarray(eroll_epoch[stage]).mean():.4f}", f"\N{DEGREE SIGN}")
-        print("roll error median:", f"{np.median(np.asarray(eroll_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
-        print("roll error std:", f"{np.std(np.asarray(eroll_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
+
+        print("== YAW ==")
+        print("yaw error mean:", f"{np.asarray(eyaw_epoch[stage]).mean():.4f}", f"\N{DEGREE SIGN}")
+        print("yaw error median:", f"{np.median(np.asarray(eyaw_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
+        print("yaw error std:", f"{np.std(np.asarray(eyaw_epoch[stage])):.4f}", f"\N{DEGREE SIGN}")
         
         print("== ER ==")
         print("Rotation error mean:", f"{np.asarray(er_epoch[stage]).mean():.4f}", f"\N{DEGREE SIGN}")
