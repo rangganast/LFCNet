@@ -8,3 +8,5 @@ Download weights using links below
 - [Err: 0.2 | 2](http://your-download-link.com/weights_err_0.2.pth)
 
 Put the weights in checkpoint_weights/run folder.
+
+Install Spatial Correlation Sampler [here](https://pypi.org/project/spatial-correlation-sampler/)
