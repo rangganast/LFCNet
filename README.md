@@ -18,7 +18,7 @@ cd Pytorch-Correlation-extension
 python3 setup.py install
 ```
 
-#### **Step 4.** Download the weights
+#### **Step 3.** Download the weights
 
 - [Err: 1.5 | 20](https://drive.google.com/file/d/1f0Rze3AhPeZMfkDD7xzvytUM0MXsbAhE/view?usp=drive_link)
 - [Err: 1.0 | 10](https://drive.google.com/file/d/1Z2TRimwVK6K2MFYu6Qce5jpIdgoEP4eI/view?usp=drive_link)
