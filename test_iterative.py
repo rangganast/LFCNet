@@ -19,7 +19,7 @@ from test_modules.quaternion_distances import quaternion_distance
 
 from test_modules import so3
 
-from dataset.dataset_test import KITTI360_Fisheye_Dataset
+from dataset.dataset import KITTI360_Fisheye_Dataset
 from models.model8_res_transformer_deformable_att import Net  
 
 def load_calib_gt(rootdir):
