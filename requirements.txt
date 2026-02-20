@@ -1,4 +1,4 @@
-mathutils
+mathutils==2.81.2
 matplotlib
 numpy
 open3d
